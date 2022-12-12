@@ -1335,11 +1335,11 @@ rs-poster 						 { cursor:pointer; z-index:3; }
 
 
 
-.tparrows						{	cursor:pointer; background:#000; background:rgba(0,0,0,0.5); width:40px;height:40px;position:absolute; display:block; z-index:1000; }
-.tparrows:hover 				{	background:#000;}
-.tparrows:before				{	font-family: "revicons"; font-size:15px; color:#fff; display:block; line-height: 40px; text-align: center;}
-.tparrows.tp-leftarrow:before	{	content: '\e824'; }
-.tparrows.tp-rightarrow:before	{	content: '\e825'; }
+.tparrows						{	cursor:pointer;   width:40px;height:40px;position:absolute; display:block; z-index:1000; }
+ 
+.tparrows:before				{	font-family: "Font Awesome 5 Free";  font-size:15px; color:#fff; display:block; line-height: 40px; text-align: center;}
+.tparrows.tp-leftarrow:before	{	content: "\f359"; }
+.tparrows.tp-rightarrow:before	{	content: "\f35a";}
 
 /*.tp-thumb-mask {max-width: 100% !important}*/
 

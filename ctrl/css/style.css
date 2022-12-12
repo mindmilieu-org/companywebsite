@@ -10699,7 +10699,7 @@ button.slick-arrow.slick-prev:before {
     }
 .bt_bb_custom_menu div ul a {
     color: inherit;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     color: #000;
     }
@@ -13472,7 +13472,7 @@ button.slick-arrow.slick-prev:before {
     cursor: pointer;
     width: auto !important;
     padding: 0 3em !important;
-    box-shadow: 0 0 0 4em #fcf113 inset;
+    
     color: #000 !important;
     border: 0;
     transition: all 300ms ease;
@@ -14077,26 +14077,24 @@ span.wpcf7-not-valid-tip {
     text-align: center;
     width: 100% !important;
     padding: 0 1.5em !important;
-    background: transparent;
+    background-color: #083b66!important;
     color: #fff !important;
-    box-shadow: 0 0 0 4em #8c8c8c inset;
+    
     }
 .btAccent.btContactBox .btBoxButton button {
-    box-shadow: 0 0 0 4em #fcf113 inset;
+    background-color: #083b66!important;
     }
 .btAccent.btContactBox .btBoxButton button:hover {
-    box-shadow: 0 0 0 4em #fcf113 inset,0 5px 8px rgba(0,0,0,.1);
+    
     }
 .btContactBox .btBoxButton button:after {
-    content: "\e90c";
-    font-size: 1em;
     
     margin-left: .6em;
     }
 .btContactBox .btBoxButton button:hover {
     transform: translateY(-1px);
     background: transparent;
-    box-shadow: 0 0 0 4em #8c8c8c inset,0 5px 8px rgba(0,0,0,.1);
+    
     color: #fff !important;
     }
 .btContactBox .ajax-loader {
