@@ -3535,6 +3535,14 @@ input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[ty
   font-weight: 400 !important;
 }
 
+.mm-blue ul li a {
+  color: #000 !important;
+}
+
+.mm-blue ul li::before {
+  color: #0752a3 !important;
+}
+
 .top-b-pad {
   padding-top: 10px;
 }
@@ -3642,6 +3650,14 @@ input {
 
 .m-top-0 {
   margin-top: 0px !important;
+}
+
+.tm-box-image.style-01 .content-wrap {
+  padding: 20px 20px 33px !important;
+}
+
+.pad-0 {
+  padding: 0px !important;
 }
 
 @media (min-width: 576px) {
@@ -4185,4 +4201,10 @@ h2 {
 
 .m-top-sml {
   margin-top: 10px !important;
+}
+
+/* Set a size for our map container, the Google Map will take up 100% of this container */
+#map {
+  width: 100%;
+  height: 500px;
 }/*# sourceMappingURL=mm-style.css.map */

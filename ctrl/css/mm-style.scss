@@ -267,6 +267,8 @@ body, .gmap-marker-wrap{color:#696969;font-size:15px;font-weight:400;letter-spac
 .mm-bullets ul li{    margin-left: 0px; list-style-type: none; display: list-item; font-size: 13px; color: #cc0000; font-weight: 600; margin-bottom: 10px;}
 .mm-bullets ul  li::before { content: "\f058";font-family: "Font Awesome 5 Free";margin-right: 10px;margin-left: -25px;}
  .light-bl ul li{  font-weight: 400!important;}
+ .mm-blue ul li a{color: #000 !important; }
+ .mm-blue ul li::before{ color: #0752a3!important;}
 .top-b-pad {padding-top: 10px;}
 .text-right { text-align: right;}
 .page-banner-head {color: #fff !important;font-size: 50px !important;}
@@ -290,10 +292,13 @@ input {border: 1px solid #ccc!important;}
 .m-top-0 {margin-top: 0px!important;}
 
 
+.tm-box-image.style-01 .content-wrap {
+   
+	padding: 20px 20px 33px !important;
+}
 
 
-
-
+.pad-0 {padding: 0px!important;}
 @media (min-width: 576px) {
 .container {
 max-width: 540px;
@@ -729,3 +734,12 @@ opacity: 0;visibility: hidden;overflow: hidden;background-color: #ce2127!importa
 }
 .cara-block { margin-top: 100px; padding-bottom:60px; background-color:#edeff2; background-attachment: fixed;}
 .m-top-sml { margin-top: 10px!important;}
+
+
+ 
+            /* Set a size for our map container, the Google Map will take up 100% of this container */
+            #map {
+                width: 100%;
+                height: 500px;
+            }
+      
