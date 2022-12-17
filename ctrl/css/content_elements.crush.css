@@ -26121,7 +26121,7 @@ ul.bt_bb_tabs_header li {
 .slick-slider {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden;z-index: 999;
     }
 .bt_bb_show_dots_below .slick-slider {
     overflow: initial;

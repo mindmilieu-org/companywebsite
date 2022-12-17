@@ -11,12 +11,13 @@
 	<script type="text/javascript" src="ctrl/js/jquery.min.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<script type="text/javascript" src="ctrl/js/vc-waypoints.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://kit.fontawesome.com/e544ca7974.js" crossorigin="anonymous"></script>
 	<link rel='stylesheet' href='ctrl/css/content_elements.crush.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='ctrl/css/style.css' type='text/css' media='screen' />
+	<link rel='stylesheet' href='ctrl/slider/rs6.css' type='text/css' media='all' /> 
 	<script type='text/javascript' src='ctrl/js/slick.min.js'></script>
 	<script type='text/javascript' src='ctrl/js/content_elements.js'></script>
 	<link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
@@ -92,8 +93,7 @@
 			</div>
 			<header id="page-header"
 				class="page-header header-02 dark-logo-version header-sticky-dark-logo headroom headroom--not-bottom headroom--not-top headroom--unpinned">
-				<div class="page-header-place-holder" style="height: 82.875px;"></div>
-
+				 
 				<!-- Desktop menu -->
 <div id="page-header-inner" class="page-header-inner held" data-sticky="1">
 <div class="container">
@@ -2077,9 +2077,15 @@ class="menu-item-title">Contact Us</span>
 			</div>
 			<div class="page-mobile-menu-content">
 				<ul id="mobile-menu-primary" class="menu__container">
+
+
+				
+
+
+
 					<li
 						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-77 level-1">
-						<a href="#" aria-expanded="false">
+						<a href="index.html" aria-expanded="false">
 							<div class="menu-item-wrap">
 								<span class="menu-item-title">HOME</span>
 								<span class="toggle-sub-menu"> </span>
@@ -2088,7 +2094,7 @@ class="menu-item-title">Contact Us</span>
 						</a>
 					</li>
 					<li
-						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-77 level-1">
+						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children level-1">
 						<a href="#" aria-expanded="false">
 							<div class="menu-item-wrap">
 								<span class="menu-item-title">ABOUT US</span>
@@ -2097,16 +2103,67 @@ class="menu-item-title">Contact Us</span>
 							<span class="sub-arrow"></span>
 						</a>
 					</li>
-					<li
-						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-77 level-1">
-						<a href="#" aria-expanded="false">
+					
+					
+					<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children level-1">
+						<a href="#">
 							<div class="menu-item-wrap">
-								<span class="menu-item-title">SERVICES</span>
+								<span class="menu-item-title">Solutions</span>
 								<span class="toggle-sub-menu"> </span>
 							</div>
-							<span class="sub-arrow"></span>
 						</a>
+					 
+
+
+					<ul  class="sub-menu">
+						<li class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a href="business-process-automation.html">
+						<div class="menu-item-wrap">
+						<span class="menu-item-title">Business Process Automation</span>
+						</div>
+						</a>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a href="compliance-services.html">
+						<div class="menu-item-wrap">
+						<span class="menu-item-title">Compliance Services</span>
+						</div>
+						</a>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a href="digital-quality-assurance.html">
+						<div class="menu-item-wrap">
+						<span class="menu-item-title">Digital Quality Assurance</span>
+						</div>
+						</a>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a href="security-and-performance.html">
+						<div class="menu-item-wrap">
+						<span class="menu-item-title">Security &amp; Performance</span>
+						</div>
+						</a>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a href="seo-and-analytics.html">
+						<div class="menu-item-wrap">
+						<span class="menu-item-title">SEO &amp; Analytics</span>
+						</div>
+						</a>
+						</li>
+						
+						<li class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a href="technical-resources.html">
+						<div class="menu-item-wrap">
+						<span class="menu-item-title">Technical Resources</span>
+						</div>
+						</a>
+						</li>
+						</ul>
 					</li>
+
+
+
 					<li
 						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-77 level-1">
 						<a href="#" aria-expanded="false">
@@ -2125,25 +2182,18 @@ class="menu-item-title">Contact Us</span>
 
  
 
-	<script type="text/javascript" src="ctrl/js/jquery.laziestloader.min.js"></script>
-	<script type="text/javascript" src="ctrl/js/headroom.js"></script>
-	<script type="text/javascript" src="ctrl/js/lightgallery-all.min.js"></script>
-	<script type="text/javascript" src="ctrl/js/swiper.min.js"></script>
-	<script type="text/javascript" src="ctrl/js/hoverIntent.min.js"></script>
+	<script type="text/javascript" src="ctrl/js/jquery.laziestloader.min.js"></script> 
+	<script type="text/javascript" src="ctrl/js/lightgalle ry-all.min.js"></script> 
 	<script type="text/javascript" src="ctrl/js/jquery.smartmenus.min.js"></script>
-	<script type="text/javascript" src="ctrl/js/vc-waypoints.min.js"></script>
 	<script type="text/javascript">
 		var $insight = { "isRTL": "", "templateUrl": "https://www.mindmilueu.com", "ajaxurl": "", "primary_color": "#086ad8", "header_sticky_enable": "1", "header_sticky_height": "80", "scroll_top_enable": "1", "light_gallery_auto_play": "0", "light_gallery_download": "1", "light_gallery_full_screen": "1", "light_gallery_zoom": "1", "light_gallery_thumbnail": "1", "light_gallery_share": "1", "mobile_menu_breakpoint": "1199", "isProduct": "", "noticeCookieEnable": "0", "noticeCookieConfirm": "no", "noticeCookieMessages": "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.<a id=\"tm-button-cookie-notice-ok\" class=\"tm-button tm-button-xs tm-button-full-wide style-flat\">Ok, got it!<\/a>", "isShowNewsletterPopup": "" };
 	</script>
 	<script type="text/javascript" src="ctrl/js/main.js"></script>
 	<script src="ctrl/js/jquery-2.2.0.min.js" type="text/javascript"></script>
 	<script src="ctrl/js/slick.js"></script>
-	<link rel='stylesheet' href='ctrl/slider/rs6.css' type='text/css' media='all' />
-	<script type='text/javascript' src='ctrl/slider/jquery.min.js'></script>
 	<script type='text/javascript' src='ctrl/slider/rbtools.min.js'></script>
 	<script type='text/javascript' src='ctrl/slider/rs6.min.js'></script>
 	<script src="ctrl/js/bootstrap.min.js"></script>
-	<script src="ctrl/js/tf.min.js"> </script>
 	<script>
 		$(document).ready(function () {
 			$('.customer-logos').slick({
@@ -2162,7 +2212,7 @@ class="menu-item-title">Contact Us</span>
 				}, {
 					breakpoint: 520,
 					settings: {
-						slidesToShow: 3
+						slidesToShow: 1
 					}
 				}]
 			});
