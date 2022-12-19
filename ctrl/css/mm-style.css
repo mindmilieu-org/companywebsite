@@ -17,10 +17,6 @@ body, div, span {
   background-position: center;
 }
 
-.page-header-place-holder {
-  height: 0px !important;
-}
-
 .pad-bottom-40 {
   padding-bottom: 40px;
 }
@@ -645,10 +641,6 @@ b, strong {
   letter-spacing: 0em;
 }
 
-.header-02 .page-header-inner {
-  background-color: #fff;
-}
-
 @media (max-width: 1199px) {
   .page-title-bar-01 .page-title-bar-inner {
     padding-top: 198px;
@@ -663,36 +655,9 @@ b, strong {
     padding-top: 160px;
     padding-bottom: 150px;
   }
-}
-@media (max-width: 991px) and (max-width: 900px) {
-  .text-resp-right, .text-resp-left {
-    text-align: left !important;
-  }
-  .bt_bb_separator.bt_bb_bottom_spacing_large {
-    margin-bottom: 10px !important;
-  }
-  .bt_bb_image img {
-    width: 94%;
-  }
-  .theme_header_slider {
-    margin-top: 80px !important;
-  }
-  .cara-block {
-    margin-top: 0px !important;
-  }
-  .bt_bb_separator.bt_bb_bottom_spacing_50 {
-    margin-bottom: 0px !important;
-  }
-  .bt_bb_section.bt_bb_bottom_spacing_large > .bt_bb_port {
-    padding: 0 !important;
-  }
-}
-@media (max-width: 991px) {
   .page-title-bar-01 .page-title-bar-inner .heading {
     font-size: 44px;
   }
-}
-@media (max-width: 991px) {
   .resp-height-set {
     top: 0px;
     width: 100%;
@@ -4222,6 +4187,11 @@ h2 {
   text-align: left;
 }
 
+@media (max-width: 900px) {
+  .text-resp-right, .text-resp-left {
+    text-align: left !important;
+  }
+}
 .cara-block {
   margin-top: 100px;
   padding-bottom: 60px;
@@ -4237,4 +4207,36 @@ h2 {
 #map {
   width: 100%;
   height: 500px;
+}
+
+.resp-smal-menu li a div span {
+  font-size: 11px !important;
+  margin-left: -17px !important;
+}
+
+.resp-smal-menu li a {
+  line-height: 11px !important;
+  font-size: 11px !important;
+}
+
+.page-mobile-main-menu .toggle-sub-menu::after {
+  content: none !important;
+  font-size: 8px !important;
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+.page-mobile-main-menu .menu__container a {
+  line-height: 25px;
+}
+
+.toggle-sub-menu i {
+  font-size: 12px !important;
+}
+
+.page-mobile-main-menu .menu-item-title {
+  font-size: 12px !important;
+}
+
+.page-header-place-holder-space {
+  height: 150px !important;
 }/*# sourceMappingURL=mm-style.css.map */
