@@ -17,6 +17,11 @@ body, div, span {
   background-position: center;
 }
 
+.rs-layer img {
+  width: 100% !important;
+  height: auto !important;
+}
+
 .pad-bottom-40 {
   padding-bottom: 40px;
 }
@@ -4191,6 +4196,14 @@ h2 {
   .text-resp-right, .text-resp-left {
     text-align: left !important;
   }
+  .bt_bb_image.bt_bb_shape_square img {
+    border-radius: 0;
+    background-color: #fff !important;
+    padding: 20px 20px 0px 20px !important;
+  }
+  .resp-pad {
+    padding: 0px !important;
+  }
 }
 .cara-block {
   margin-top: 100px;
@@ -4239,4 +4252,23 @@ h2 {
 
 .page-header-place-holder-space {
   height: 150px !important;
+}
+
+#slider-11-slide-37-layer-4 {
+  font-size: 31px !important;
+  line-height: 31px !important;
+}
+
+.ad-pad {
+  padding: 40px 0px 40px 0px;
+}
+
+.bt_bb_image.bt_bb_shape_square img {
+  border-radius: 0;
+  background: none;
+  padding: 0px;
+}
+
+.pad-top-20 {
+  padding-top: 20px;
 }/*# sourceMappingURL=mm-style.css.map */
